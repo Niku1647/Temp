@@ -42,7 +42,7 @@ function Weather(cityname) {
   });
   if(isLoaded){
     return (
-      <div className=" mt-36 flex items-center justify-center flex-col border-double border-4 border-indigo-500">
+      <div className=" mt-36 mx-10 md:mx-32 lg:mx-60 xl:mx-60 2xl:mx-60 flex items-center justify-center  flex-col border-double border-4 border-indigo-500">
         
         <h1 className="text-5xl  fredericka text-blue-500 font-black  tracking-wider text-center m-6 ">{city}</h1>
   
